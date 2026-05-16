@@ -243,7 +243,7 @@ async function updateInfo() {
 
   
   psychoJS.experiment.dataFileName = (("." + "/") + `data/${expInfo["\u0412\u043e\u0437\u0440\u0430\u0441\u0442"]}_${expInfo["\u041f\u043e\u043b"]}_${expInfo["date"]}`);
-  psychoJS.experiment.field_separator = '\t';
+  psychoJS.experiment.field_separator = '\\t';
 
 
   return Scheduler.Event.NEXT;
